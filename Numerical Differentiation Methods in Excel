@@ -1,0 +1,71 @@
+Numerical Differentiation Methods in Excel
+Overview
+This project demonstrates the implementation of several **numerical differentiation methods** using **Microsoft Excel** to approximate the derivative of a mathematical function from discrete data points.
+The project compares different finite difference approaches to observe how each method estimates the derivative and to understand their computational characteristics. It also includes a function graph for better visualization of the analyzed data.
+
+Objectives
+- Implement numerical differentiation using Microsoft Excel.
+- Apply several finite difference methods.
+- Compare numerical approximation results.
+- Visualize the function using charts.
+- Understand the characteristics of different differentiation methods.
+
+Methods
+The following finite difference methods are implemented:
+- Forward Difference O(h)
+- Backward Difference O(h)
+- Central Difference O(h²)
+- Forward Difference O(h²)
+
+Results
+The numerical approximations obtained from each method are:
+| Method | Approximation |
+|---------|--------------:|
+| Forward Difference O(h) | -0.5486650000 |
+| Backward Difference O(h) | -0.3104710000 |
+| Central Difference O(h²) | -0.4295680000 |
+| Forward Difference O(h²) | -0.3994257500 |
+The comparison shows that each finite difference method produces a different approximation value. This demonstrates that the choice of numerical differentiation method should be based on the characteristics of the mathematical problem and the required level of accuracy.
+
+Visualizations
+This project includes:
+- Function graph
+- Numerical approximation results
+- Finite difference comparison
+
+Tools
+- Microsoft Excel
+- Numerical Methods
+- Finite Difference Method
+- Mathematical Analysis
+- Data Visualization
+
+Repository Structure
+```
+├── Numerical_Differentiation.xlsx
+├── README.md
+└── images/
+    └── function_graph.png
+```
+
+Key Findings
+- Different finite difference methods produce different numerical approximations.
+- Numerical differentiation methods have unique computational characteristics.
+- Selecting an appropriate method depends on the problem requirements.
+- Microsoft Excel can effectively perform numerical differentiation without requiring programming languages.
+
+Skills Demonstrated
+- Numerical Analysis
+- Microsoft Excel
+- Mathematical Modeling
+- Data Visualization
+- Spreadsheet Modeling
+- Problem Solving
+
+Author
+Oktaviani Putri
+
+Statistics Undergraduate Student
+Aspiring Data Analyst
+
+If you find this project useful, please consider giving this repository a ⭐.
